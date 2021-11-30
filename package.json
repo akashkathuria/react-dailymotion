@@ -6,7 +6,7 @@
   "module": "dist/react-dailymotion.mjs",
   "scripts": {
     "prepare": "npm run build",
-    "build": "ROLLUP=1 rollup -c",
+    "build": "node api.js && ROLLUP=1 rollup -c",
     "lint": "eslint --cache .",
     "tests-only": "TESTS=1 mocha --require @babel/register",
     "test": "npm run lint && npm run tests-only",
@@ -24,7 +24,7 @@
     "react-component",
     "video"
   ],
-  "author": "Renée Kooi <renee@kooi.me>",
+  "author": "Ren\u00e9e Kooi <renee@kooi.me>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/u-wave/react-dailymotion/issues"

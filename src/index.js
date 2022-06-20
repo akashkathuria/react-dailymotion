@@ -36,7 +36,7 @@ class Dailymotion extends React.Component {
       mute: this.props.mute,
       origin: this.props.origin,
       quality: this.props.quality,
-      'queue-autoplay-neext': this.props.autoplayQueue,
+      'queue-autoplay-next': this.props.autoplayQueue,
       'queue-enable': this.props.showQueue,
       'sharing-enable': this.props.sharing,
       start: this.props.start,
